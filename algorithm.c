@@ -18,7 +18,7 @@ void	small_sorts(t_stack **s)
 
 	len = stack_len(*s);
 	if (len == 2)
-		swap(s);
+		sa(s);
 	if (len == 3)
 	{
 		if (highest(*s) == 1)
